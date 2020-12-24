@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><EntityDescriptor xmlns="urn:oasis:names:tc:SAML:2.0:metadata" entityID="https://idp.intranet.local/idp/shibboleth" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><IDPSSODescriptor protocolSupportEnumeration="urn:mace:shibboleth:1.0 urn:oasis:names:tc:SAML:1.1:protocol urn:oasis:names:tc:SAML:2.0:protocol"><Extensions><shibmd:Scope regexp="false">intranet.local</shibmd:Scope></Extensions><KeyDescriptor><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIDNDCCAhygAwIBAgIVAMlQ7DBF8utLJkQ1on1HjAt118tZMA0GCSqGSIb3DQEB
+BQUAMB0xGzAZBgNVBAMTEmlkcC5pbnRyYW5ldC5sb2NhbDAeFw0yMDEyMTkwNDA5
+MTRaFw00MDEyMTkwNDA5MTRaMB0xGzAZBgNVBAMTEmlkcC5pbnRyYW5ldC5sb2Nh
+bDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALouzgFWLqT2+nmsInU/
+Zh+ZC0jnNuZdJddZr+kcpgvla+WEb4HkqtxlelnAE/3mx/56AupV8Dx4ULfz27HT
+NUnRH7tCLksgjWNuemtBOTQ0X4RyQaThQSjEB56M02fsnwvotr6sLCpWxZpDE/Vl
+C+rOdm0jc5dPc8OaY5tO4nZVVMvcFlpTjVKtB3WzjlSwWMbHdSYBpu1FAklKM5sA
+ahJn48IgwR4VRE/LE4K3oOFT/hurMCpZ0+sCivB5R+9BrBRucD/14wJdCvW8pv02
+L1mqArTW2l5ZkYhZpm6aS/3irjTM2FUz8VmgB0qpXt4NR8iGRurTgif/UWcDX+YI
+pgsCAwEAAaNrMGkwSAYDVR0RBEEwP4ISaWRwLmludHJhbmV0LmxvY2FshilodHRw
+czovL2lkcC5pbnRyYW5ldC5sb2NhbC9pZHAvc2hpYmJvbGV0aDAdBgNVHQ4EFgQU
+thZiZ1fIiy26r4JyC2BxHZXc268wDQYJKoZIhvcNAQEFBQADggEBAEasPqbpydGF
+VhH/vIY565N/3Ga9PsWNYEHKjPdGA04gby+3pA8kjg265QVcfrZ25UxJEdRQHSEm
+lmxPi0gAWIMw3rNqJTBA3QMcJj/yQbty+7v8mKbfDcFxx/ZZLq0r2OCdxnHdbvIi
+D1Lk8mItjTTcAfjSXpxfEhokmfznKSYtwHd3gn7xVgQlz4KEQuId8fkCTwiv/6Fx
+iIFgDd4P65GsO8XfOP1QW2qqcE8hre9XrOUTmJALgLDkT1xTsOHzE4R/Nz3OIigw
+8BBpzQriEjDVLu69i4A8No4iOSc4hMYMZA8DZOLqQrmg6DVWQ8XWl6cHiUwd3as6
+0xIR5nP5QXs=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></KeyDescriptor><ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://idp.intranet.local:8443/idp/profile/SAML1/SOAP/ArtifactResolution" index="1"/><ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://idp.intranet.local:8443/idp/profile/SAML2/SOAP/ArtifactResolution" index="2"/><SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://idp.intranet.local/idp/profile/SAML2/Redirect/SLO"/><SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp.intranet.local/idp/profile/SAML2/POST/SLO"/><SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://idp.intranet.local:8443/idp/profile/SAML2/SOAP/SLO"/><NameIDFormat>urn:mace:shibboleth:1.0:nameIdentifier</NameIDFormat><NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</NameIDFormat><SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://idp.intranet.local/idp/profile/Shibboleth/SSO"/><SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp.intranet.local/idp/profile/SAML2/POST/SSO"/><SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://idp.intranet.local/idp/profile/SAML2/POST-SimpleSign/SSO"/><SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://idp.intranet.local/idp/profile/SAML2/Redirect/SSO"/></IDPSSODescriptor><AttributeAuthorityDescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:1.1:protocol urn:oasis:names:tc:SAML:2.0:protocol"><Extensions><shibmd:Scope regexp="false">intranet.local</shibmd:Scope></Extensions><KeyDescriptor><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIDNDCCAhygAwIBAgIVAMlQ7DBF8utLJkQ1on1HjAt118tZMA0GCSqGSIb3DQEB
+BQUAMB0xGzAZBgNVBAMTEmlkcC5pbnRyYW5ldC5sb2NhbDAeFw0yMDEyMTkwNDA5
+MTRaFw00MDEyMTkwNDA5MTRaMB0xGzAZBgNVBAMTEmlkcC5pbnRyYW5ldC5sb2Nh
+bDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALouzgFWLqT2+nmsInU/
+Zh+ZC0jnNuZdJddZr+kcpgvla+WEb4HkqtxlelnAE/3mx/56AupV8Dx4ULfz27HT
+NUnRH7tCLksgjWNuemtBOTQ0X4RyQaThQSjEB56M02fsnwvotr6sLCpWxZpDE/Vl
+C+rOdm0jc5dPc8OaY5tO4nZVVMvcFlpTjVKtB3WzjlSwWMbHdSYBpu1FAklKM5sA
+ahJn48IgwR4VRE/LE4K3oOFT/hurMCpZ0+sCivB5R+9BrBRucD/14wJdCvW8pv02
+L1mqArTW2l5ZkYhZpm6aS/3irjTM2FUz8VmgB0qpXt4NR8iGRurTgif/UWcDX+YI
+pgsCAwEAAaNrMGkwSAYDVR0RBEEwP4ISaWRwLmludHJhbmV0LmxvY2FshilodHRw
+czovL2lkcC5pbnRyYW5ldC5sb2NhbC9pZHAvc2hpYmJvbGV0aDAdBgNVHQ4EFgQU
+thZiZ1fIiy26r4JyC2BxHZXc268wDQYJKoZIhvcNAQEFBQADggEBAEasPqbpydGF
+VhH/vIY565N/3Ga9PsWNYEHKjPdGA04gby+3pA8kjg265QVcfrZ25UxJEdRQHSEm
+lmxPi0gAWIMw3rNqJTBA3QMcJj/yQbty+7v8mKbfDcFxx/ZZLq0r2OCdxnHdbvIi
+D1Lk8mItjTTcAfjSXpxfEhokmfznKSYtwHd3gn7xVgQlz4KEQuId8fkCTwiv/6Fx
+iIFgDd4P65GsO8XfOP1QW2qqcE8hre9XrOUTmJALgLDkT1xTsOHzE4R/Nz3OIigw
+8BBpzQriEjDVLu69i4A8No4iOSc4hMYMZA8DZOLqQrmg6DVWQ8XWl6cHiUwd3as6
+0xIR5nP5QXs=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></KeyDescriptor><AttributeService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://idp.intranet.local:8443/idp/profile/SAML1/SOAP/AttributeQuery"/><AttributeService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://idp.intranet.local:8443/idp/profile/SAML2/SOAP/AttributeQuery"/><NameIDFormat>urn:mace:shibboleth:1.0:nameIdentifier</NameIDFormat><NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</NameIDFormat></AttributeAuthorityDescriptor></EntityDescriptor>
